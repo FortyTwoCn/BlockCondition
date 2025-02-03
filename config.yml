@@ -1,0 +1,17 @@
+//粒子1
+'Condition1': // 这个随意写但是不能重复
+  Block: tier:2b //方块NBT包含的字符串
+  NotContains: "abcdefg" //方块NBT不包含的字符串
+  CheckInItemHands:
+    - 'DRACONICEVOLUTION_CHAOTIC_CORE' //手持的物品 空手为AIR
+  PermissionNeed: '' //所需要的权限
+  MONEY: 0 //扣除的金币
+  POINT: 30 //扣除的点卷
+//触发时候发送的消息
+Message: '§b§l系统 §f§l>>> §f是否确认升级/改变刷怪笼，将消耗<MONEY>枚金币,<POINT>个点券,如确认请重新右键'
+//无权限时发送的消息
+NoPermission: '§b§l系统 §f§l>>> §c缺失了权限<Permission>,无法使用!'
+//金币不足时发送的消息
+NoMoney: '§b§l系统 §f§l>>> §c缺乏<MONEY>枚金币，无法升级'
+//点卷不足时发送的消息
+NoPoint: '§b§l系统 §f§l>>> §c缺乏<POINT>枚点券，无法升级'
