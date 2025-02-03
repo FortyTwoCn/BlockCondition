@@ -3,7 +3,7 @@
   Block: tier:2b //方块NBT包含的字符串
   NotContains: "abcdefg" //方块NBT不包含的字符串
   CheckInItemHands:
-    - 'DRACONICEVOLUTION_CHAOTIC_CORE' //手持的物品 空手为AIR
+    - 'DRACONICEVOLUTION_CHAOTIC_CORE' //手持的物品 空手直接删除即可
   PermissionNeed: '' //所需要的权限
   MONEY: 0 //扣除的金币
   POINT: 30 //扣除的点卷
